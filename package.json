@@ -1,0 +1,18 @@
+{
+  "name": "namingapi",
+  "version": "1.0.0",
+  "description": "Naming API is an API helps you to choose a new name for your new child, with lot of different suggestions and meanings for each suggested name",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Moayed",
+  "license": "ISC",
+  "dependencies": {
+    "env": "^0.0.2",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "sequelize": "^6.25.3",
+    "sequelize-cli": "^6.5.2"
+  }
+}
