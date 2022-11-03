@@ -4,15 +4,29 @@
   "description": "Naming API is an API helps you to choose a new name for your new child, with lot of different suggestions and meanings for each suggested name",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node server.js"
   },
   "author": "Moayed",
   "license": "ISC",
   "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-node": "^0.0.1-security",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
     "env": "^0.0.2",
     "express": "^4.18.2",
+    "mysql2": "^2.3.3",
     "nodemon": "^2.0.20",
+    "pg": "^8.8.0",
+    "pg-hstore": "^2.3.4",
     "sequelize": "^6.25.3",
     "sequelize-cli": "^6.5.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.6",
+    "@babel/node": "^7.17.10",
+    "@babel/preset-env": "^7.18.2"
   }
 }
