@@ -1,23 +1,23 @@
 {
   "development": {
     "username": "root",
-    "password": "I&ltmb%h20%%&&",
+    "password": "GXu1obIzD9jfTHO66fFx2Ba2mHWKN5Yg",
     "database": "naming",
-    "host": "localhost",
-    "dialect": "mysql"
+    "host": "postgres://root:GXu1obIzD9jfTHO66fFx2Ba2mHWKN5Yg@dpg-cdihtn02i3mick9bj6pg-a/naming",
+    "dialect": "postgres"
   },
   "test": {
     "username": "root",
-    "password": "I&ltmb%h20%%&&",
+    "password": "GXu1obIzD9jfTHO66fFx2Ba2mHWKN5Yg",
     "database": "naming",
-    "host": "localhost",
-    "dialect": "mysql"
+    "host": "postgres://root:GXu1obIzD9jfTHO66fFx2Ba2mHWKN5Yg@dpg-cdihtn02i3mick9bj6pg-a/naming",
+    "dialect": "postgres"
   },
   "production": {
     "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "password": "GXu1obIzD9jfTHO66fFx2Ba2mHWKN5Yg",
+    "database": "naming",
+    "host": "postgres://root:GXu1obIzD9jfTHO66fFx2Ba2mHWKN5Yg@dpg-cdihtn02i3mick9bj6pg-a/naming",
+    "dialect": "postgres"
   }
 }
