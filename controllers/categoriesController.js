@@ -13,6 +13,7 @@ const getCategories = async (req,res) =>{
     }
     return res.status(404).json({message:"No categories found!"})
 }
+  
 
 // POST a category
 const createCategory = async (req,res) =>{
